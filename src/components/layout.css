@@ -1,0 +1,159 @@
+#outer {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  max-width: 80rem;
+}
+
+@media only screen and (min-width: 640px) {
+  #outer {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #outer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+  }
+}
+
+#outro {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#hometext {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+@media only screen and (min-width: 640px) {
+  #hometext {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #hometext {
+    max-width: 36rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #hometext {
+    max-width: 48rem;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  #hometext {
+    max-width: none;
+  }
+}
+
+#homeheader {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 800;
+  letter-spacing: -.025rem;
+
+}
+
+@media only screen and (min-width: 640px) {
+  #homeheader {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+#homeparagraph {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: rgb(107 114 128);
+}
+
+#homelist {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 640px) {
+  #homelist {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 1.5rem;
+    row-gap: 3rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #homelist {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 2rem;
+  }
+}
+
+#outerlist {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#outerimglist {
+  aspect-ratio: 3 / 2;
+}
+
+#imglist {
+  object-fit: cover;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+#outerheaderlist {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#innerheaderlist {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+#linkparagraph {
+  color: rgb(79 70 229);
+}
+
+#linkparagraph:hover {
+  color: #000000;
+    text-decoration: none;
+}
+
+#linkheader {
+  color: black;
+}
+#youtube {
+  width: 100%;
+  height: 100%;
+}
+
+#outervideo {
+  margin: auto;
+  width: 60%;
+  height: 400px;
+  border: 3px;
+  padding: 10px;
+}
