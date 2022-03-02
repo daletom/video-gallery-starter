@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
         >
         Find the GH Repo here:
           {` `}
-          <a href="https://github.com/daletom/video-gallery-start">video-gallery-start</a>
+          <a href="https://github.com/daletom/video-gallery-starter">video-gallery-starter</a>
         </footer>
       </div>
     </>
